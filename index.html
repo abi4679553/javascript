@@ -22,7 +22,7 @@
     }
 
 </script> -->
-
+<!-- 
 <p id="mgs">abi</p>
 <button onclick="changetext ()">click me</button>
 <script>
@@ -30,6 +30,16 @@
         document.getElementById("mgs") .innerHTML="hello ...."
 
     }
+</script> -->
+
+<button onclick="getName()">Enter Name</button>
+<p id="name"></p>
+
+<script>
+  function getName() {
+    let user = window.prompt("Enter your name:");
+    document.getElementById("name").innerHTML = "Hello " + user;
+  }
 </script>
 
 
